@@ -172,3 +172,112 @@ button, input, select, textarea {
     font-size: 0.8rem;
     font-weight: bold;
 }
+
+.pasos-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.paso {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(23, 69, 79, 0.1);
+}
+
+.paso-numero {
+    flex: 0 0 50px;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #17454F, #3A9BAD);
+    color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.paso-detalle h3 {
+    margin-bottom: 0.3rem;
+    color: #17454F;
+}
+
+.paso-detalle p {
+    color: #555555;
+    margin: 0;
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.formulario, input, .formulario select {
+    flex: 1 1 200px;
+    padding: 0.8rem;
+    border: 1px solid #8ECDD6;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
+
+.formulario input, .formulario textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #8ECDD6;
+    border-radius: 6px;
+    resize: vertical;
+}
+
+.formulario .btn {
+    width: 100%;
+    background: linear-gradient(135deg, #17454F, #3A9BAD);
+    border: none;
+}
+
+.site-footer {
+    background-color: #0D2E34;
+    color: #FFFFFF;
+    padding: 2rem;
+    margin-top: 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-col {
+    flex: 1 1 200px;
+}
+
+.footer-col h4 {
+    margin-bottom: 0.8rem;
+    color: #A8D8DF;
+}
+
+.footer-col p {
+    color: #7AABB3;
+    margin-bottom: 0.3rem;
+    font-size: 0.9rem;
+}
+
+.copyright {
+    text-align: center;
+    color: #4A7A82;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #17454F;
+    font-size: 0.85rem;
+}
